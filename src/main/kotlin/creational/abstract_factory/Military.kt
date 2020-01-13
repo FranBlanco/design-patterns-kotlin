@@ -1,7 +1,5 @@
 package creational.abstract_factory
 
-
-
 interface Unit
 
 interface Vehicle : Unit
