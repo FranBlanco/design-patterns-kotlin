@@ -16,7 +16,7 @@ class Dog(race: DogRaces) : Animal {
 }
 
 class AnimalFactory {
-    val dogFactory = DogFactory()
+    private val dogFactory = DogFactory()
     fun createAnimal(animalType: String): Animal {
         return when (animalType.trim().toLowerCase()) {
             "cat" -> Cat()
